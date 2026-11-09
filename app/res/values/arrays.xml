@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 作用域：家人守护本体 + Heytap 帐号/推送链路 + 登录壳（移动服务） -->
+    <string-array name="xposed_scope">
+        <item>com.oplus.familyguard</item>
+        <item>com.coloros.familyguard</item>
+        <item>com.heytap.htms</item>
+        <item>com.oplus.mobileservice</item>
+        <item>com.oplus.account</item>
+        <item>com.heytap.account</item>
+        <item>com.oplus.push</item>
+        <item>com.coloros.assistnet</item>
+    </string-array>
+</resources>
